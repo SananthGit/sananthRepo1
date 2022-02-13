@@ -1,4 +1,4 @@
-Last login: Sun Feb 13 08:49:59 on ttys000
+Last login: Sun Feb 13 08:49:59 on ttys000vv
 sandhya_prashant@Sandhyas-Air ~ % ls
 Applications				Library					Untitled2.ipynb
 Covid Cases.csv				Movies					devopscert
