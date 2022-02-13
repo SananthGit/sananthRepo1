@@ -1,1 +1,59 @@
-This is my first file.
+Last login: Sun Feb 13 08:49:59 on ttys000
+sandhya_prashant@Sandhyas-Air ~ % ls
+Applications				Library					Untitled2.ipynb
+Covid Cases.csv				Movies					devopscert
+Covid Cases.json			Music					eclipse
+Desktop					Pictures				eclipse-workspace
+Documents				Public					opt
+Downloads				PycharmProjects				sf_buildings.csv
+GitEdureka				Untitled.ipynb				sf_buildings.json
+Internet Data File Analyzer.ipynb	Untitled1.ipynb
+sandhya_prashant@Sandhyas-Air ~ % cd GitEdureka/demo 
+sandhya_prashant@Sandhyas-Air demo % ls
+sananth.txt
+sandhya_prashant@Sandhyas-Air demo % git status
+On branch master
+nothing to commit, working tree clean
+sandhya_prashant@Sandhyas-Air demo % ls
+sananth.txt
+sandhya_prashant@Sandhyas-Air demo % cp ~/Desktop/GitEdureka/sananthcopy.txt .
+cp: /Users/sandhya_prashant/Desktop/GitEdureka/sananthcopy.txt: No such file or directory
+sandhya_prashant@Sandhyas-Air demo % cp ~/Desktop/GitEdureka/sananth copy.txt .
+cp: /Users/sandhya_prashant/Desktop/GitEdureka/sananth: No such file or directory
+cp: copy.txt: No such file or directory
+sandhya_prashant@Sandhyas-Air demo % ls                                        
+sananth copy.txt	sananth.txt
+sandhya_prashant@Sandhyas-Air demo % git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	sananth copy.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+sandhya_prashant@Sandhyas-Air demo % vi sananth.txt 
+
+Mades changes  is my first file.
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+-- INSERT --
