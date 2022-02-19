@@ -1,0 +1,253 @@
+Last login: Sun Feb 13 09:09:37 on ttys000
+sandhya_prashant@Sandhyas-Air ~ % cd GitEdureka 
+sandhya_prashant@Sandhyas-Air GitEdureka % cd demo 
+sandhya_prashant@Sandhyas-Air demo % ls
+sananth copy.txt	sananth.txt
+sandhya_prashant@Sandhyas-Air demo % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   sananth.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.sananth.txt.swp
+	sananth copy.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+sandhya_prashant@Sandhyas-Air demo % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   sananth.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.sananth.txt.swp
+	sananth copy.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+sandhya_prashant@Sandhyas-Air demo % git status               
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   sananth.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.sananth.txt.swp
+	sananth copy.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+sandhya_prashant@Sandhyas-Air demo % git add .
+sandhya_prashant@Sandhyas-Air demo % git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .sananth.txt.swp
+	new file:   sananth copy.txt
+	modified:   sananth.txt
+
+sandhya_prashant@Sandhyas-Air demo % git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .sananth.txt.swp
+	new file:   sananth copy.txt
+	modified:   sananth.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	anotherfile 2.txt
+
+sandhya_prashant@Sandhyas-Air demo % git add . 
+sandhya_prashant@Sandhyas-Air demo % git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .sananth.txt.swp
+	new file:   anotherfile 2.txt
+	new file:   sananth copy.txt
+	modified:   sananth.txt
+
+sandhya_prashant@Sandhyas-Air demo % git commit sananth.txt -m "commiting first sananttext file"
+[master caee29b] commiting first sananttext file
+ 1 file changed, 59 insertions(+), 1 deletion(-)
+ rewrite sananth.txt (100%)
+sandhya_prashant@Sandhyas-Air demo % git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .sananth.txt.swp
+	new file:   anotherfile 2.txt
+	new file:   sananth copy.txt
+
+sandhya_prashant@Sandhyas-Air demo % git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .sananth.txt.swp
+	new file:   anotherfile 2.txt
+	new file:   sananth copy.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   sananth.txt
+
+sandhya_prashant@Sandhyas-Air demo % git add .
+sandhya_prashant@Sandhyas-Air demo % git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .sananth.txt.swp
+	new file:   anotherfile 2.txt
+	new file:   sananth copy.txt
+	modified:   sananth.txt
+
+sandhya_prashant@Sandhyas-Air demo % git commit sananth.txt -m "commiting second sananttext file" 
+[master 1166c98] commiting second sananttext file
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+sandhya_prashant@Sandhyas-Air demo % git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .sananth.txt.swp
+	new file:   anotherfile 2.txt
+	new file:   sananth copy.txt
+
+sandhya_prashant@Sandhyas-Air demo % git commit -m "commiting second sananttext file"      
+[master 944a3e8] commiting second sananttext file
+ 3 files changed, 2 insertions(+)
+ create mode 100644 .sananth.txt.swp
+ create mode 100644 anotherfile 2.txt
+ create mode 100644 sananth copy.txt
+sandhya_prashant@Sandhyas-Air demo % git status
+On branch master
+nothing to commit, working tree clean
+sandhya_prashant@Sandhyas-Air demo % cd..
+zsh: command not found: cd..
+sandhya_prashant@Sandhyas-Air demo % pwd
+/Users/sandhya_prashant/GitEdureka/demo
+sandhya_prashant@Sandhyas-Air demo % cd..
+zsh: command not found: cd..
+sandhya_prashant@Sandhyas-Air demo % cd ..
+sandhya_prashant@Sandhyas-Air GitEdureka % mkdir folder1
+sandhya_prashant@Sandhyas-Air GitEdureka % ls
+demo	folder1
+sandhya_prashant@Sandhyas-Air GitEdureka % cd folder
+cd: no such file or directory: folder
+sandhya_prashant@Sandhyas-Air GitEdureka % cd folder1 
+sandhya_prashant@Sandhyas-Air folder1 % git init
+Initialized empty Git repository in /Users/sandhya_prashant/GitEdureka/folder1/.git/
+sandhya_prashant@Sandhyas-Air folder1 % git config --global user.name "sananth"
+sandhya_prashant@Sandhyas-Air folder1 % git config --global user.email "sandhya.prashant@gmail.com"
+sandhya_prashant@Sandhyas-Air folder1 % git config --list
+core.excludesfile=~/.gitignore
+core.legacyheaders=false
+core.quotepath=false
+mergetool.keepbackup=true
+push.default=simple
+color.ui=auto
+color.interactive=auto
+repack.usedeltabaseoffset=true
+alias.s=status
+alias.a=!git add . && git status
+alias.au=!git add -u . && git status
+alias.aa=!git add . && git add -u . && git status
+alias.c=commit
+alias.cm=commit -m
+alias.ca=commit --amend
+alias.ac=!git add . && git commit
+alias.acm=!git add . && git commit -m
+alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+alias.ll=log --stat --abbrev-commit
+alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+alias.llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
+alias.d=diff
+alias.master=checkout master
+alias.spull=svn rebase
+alias.spush=svn dcommit
+alias.alias=!git config --list | grep 'alias\.' | sed 's/alias\.\([^=]*\)=\(.*\)/\1\	 => \2/' | sort
+include.path=~/.gitcinclude
+include.path=.githubconfig
+include.path=.gitcredential
+diff.exif.textconv=exif
+credential.helper=osxkeychain
+user.name=sananth
+user.email=sandhya.prashant@gmail.com
+color.ui=auto
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+core.precomposeunicode=true
+sandhya_prashant@Sandhyas-Air folder1 % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	file copy.txt
+	file1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+sandhya_prashant@Sandhyas-Air folder1 % git add .
+sandhya_prashant@Sandhyas-Air folder1 % git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   file copy.txt
+	new file:   file1.txt
+
+sandhya_prashant@Sandhyas-Air folder1 % git commit
+
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#       new file:   file copy.txt
+#       new file:   file1.txt
+First commit to folder
+#
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --
